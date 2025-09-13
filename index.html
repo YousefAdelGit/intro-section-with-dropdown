@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+	<script type="text/javascript" src="./script.js" defer></script>
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+    <div class="nav-element">
+      <ul>
+        <li>
+          <a href="#" class="dropdown-link">Features <img src="./images/icon-arrow-down.svg" alt="arrow-down" class="dropdown-arrow"></a>
+          <ul class="dropdown-features">
+            <li><a href="#"><img src="./images/icon-todo.svg" alt="icon-todo">Todo List</a></li>
+            <li><a href="#"><img src="./images/icon-calendar.svg" alt="icon-calendar">Calendar</a></li>
+            <li><a href="#"><img src="./images/icon-reminders.svg" alt="icon-reminders">Reminders</a></li>
+            <li><a href="#"><img src="./images/icon-planning.svg" alt="icon-planning">Planning</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="dropdown-link">Company <img src="./images/icon-arrow-down.svg" alt="arrow-down" class="dropdown-arrow"></a>
+          <ul class="dropdown-company">
+            <li><a href="#">History</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div class="nav-register">
+      <ul>
+        <li><a href="#">Login</a></li>
+        <li><a href="#"><button class="register-btn">Register</button></a></li>
+      </ul>
+    </div>
+    <div class="toggle-menu">
+      <img src="./images/icon-menu.svg" alt="icon-menu">
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+      <div class="close-btn"><img src="./images/icon-close-menu.svg" alt="icon-close-menu"></div>
+    <ul>
+      <li>
+        <a href="#" class="dropdown-link">Features <img src="./images/icon-arrow-down.svg" alt="arrow-down" class="dropdown-arrow"></a>
+        <ul class="dropdown-features">
+          <li><a href="#"><img src="./images/icon-todo.svg" alt="icon-todo">Todo List</a></li>
+          <li><a href="#"><img src="./images/icon-calendar.svg" alt="icon-calendar">Calendar</a></li>
+          <li><a href="#"><img src="./images/icon-reminders.svg" alt="icon-reminders">Reminders</a></li>
+          <li><a href="#"><img src="./images/icon-planning.svg" alt="icon-planning">Planning</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="dropdown-link">Company <img src="./images/icon-arrow-down.svg" alt="arrow-down" class="dropdown-arrow"></a>
+        <ul class="dropdown-company">
+          <li><a href="#">History</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#"><button class="register-btn">Register</button></a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="textside">
+      <div class="row">
+        <h1 class="epilogue-700">Make <br> remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button class="learn-more-btn">Learn more</button>
+      </div>
+      <div class="bottom-images-container">
+        <ul>
+          <li><img src="./images/client-databiz.svg" alt="client-databiz-logo"></li>
+          <li><img src="./images/client-audiophile.svg" alt="client-audiophile-logo"></li>
+          <li><img src="./images/client-meet.svg" alt="client-meet-logo"></li>
+          <li><img src="./images/client-maker.svg" alt="client-maker-logo"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="imageside">
+      <img src="./images/image-hero-desktop.png" alt="hero-image">
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/YousefAdelGit">Yousef</a>.
+  </footer>
+</div>
+</body>
+</html>
